@@ -29,5 +29,9 @@ public class baseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		
 	}
+	public static void toMaximize() {
+		driver.manage().window().maximize();
+	}
+
 
 }
